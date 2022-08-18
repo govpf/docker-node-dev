@@ -17,7 +17,6 @@ RUN apt-get update && \
       libxss1 \
       libxtst6 \
       fonts-liberation \
-      libappindicator1 \
       xdg-utils \
       lsb-release \
     && curl -L https://github.com/Yelp/dumb-init/releases/download/v1.2.1/dumb-init_1.2.1_amd64.deb > /tmp/dumb-init.deb \
