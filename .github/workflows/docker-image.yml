@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        versions: [latest, 16]
+        versions: [latest, 18]
     env:
       repo: "govpf/node-dev"
     steps:
