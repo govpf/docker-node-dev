@@ -1,4 +1,4 @@
-FROM govpf/node:18
+FROM govpf/node:22
 
 RUN apt-get update && \
     DEBIAN_FRONTEND="noninteractive" \
