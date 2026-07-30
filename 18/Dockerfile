@@ -1,4 +1,4 @@
-FROM govpf/node:22
+FROM govpf/node:18-debian
 
 RUN apt-get update && \
     DEBIAN_FRONTEND="noninteractive" \
