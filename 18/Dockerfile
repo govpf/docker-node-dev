@@ -1,5 +1,8 @@
 FROM govpf/node:18-debian
 
+LABEL govpf.category="runtime"
+LABEL govpf.fromimage="govpf/node:18-debian"
+
 RUN apt-get update && \
     DEBIAN_FRONTEND="noninteractive" \
     apt-get install -y --no-install-recommends \

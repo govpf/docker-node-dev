@@ -1,5 +1,8 @@
 FROM govpf/node:22-debian
 
+LABEL govpf.category="runtime"
+LABEL govpf.fromimage="govpf/node:22-debian"
+
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && \
